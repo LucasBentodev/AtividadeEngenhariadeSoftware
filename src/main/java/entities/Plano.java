@@ -60,12 +60,11 @@ public class Plano {
 
     @Override
     public String toString() {
-        return "Plano: \n" +
-                "nome: " + nome +
-                ", minutosInclusos = " + minutosInclusos +
-                ", \nGigas contratados= " + dadosInclusosEmGB +
-                ", \nPreco excedente minuto= " + precoPorMinutoExcedente +
-                ", \nPreco por GB excendente= " + precoPorGBExcedente;
+        return  nome + "\n" +
+                "Minutos contratados = " + minutosInclusos +
+                "\nGigas contratados = " + dadosInclusosEmGB +
+                "\nPreco excedente minuto = " + precoPorMinutoExcedente +
+                "\nPreco por GB excendente = " + precoPorGBExcedente;
     }
 }
 
